@@ -1,0 +1,11 @@
+*.swp
+*.swo
+*.log
+node_modules
+dist/
+.package/
+.idea
+.sass-cache/
+.DS_Store
+_site/*
+*.orig
