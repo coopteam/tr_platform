@@ -5,26 +5,7 @@
 $white: #ffffff;
 $blue: #427aef;
 
-body {
-  background: #d3e4fd;
-}
-
-.com_header {
-  height: 2.25rem;
-  line-height: 2.25rem;
-  padding-right: .5rem;
-  padding-left: .5rem;
-  background: #9cc1fa;
-  font-size: 1.1rem;
-  color: $white;
-  text-align: center;
-  i {
-    color: $white;
-  }
-}
-
 .com_container {
-  padding: .75rem .5rem;
   .com_inner {
     padding-top: .8rem;
     padding-bottom: .8rem;
@@ -50,7 +31,7 @@ body {
       .com_status {
         width: 4.6rem;
         height: 1.2rem;
-        line-height: 1.2rem;
+        line-height: 1.1rem;
         margin-top: .3rem;
         margin-bottom: .3rem;
         background: $blue;
@@ -80,7 +61,6 @@ body {
         color: #ff0000;
       }
       .service, .verify {
-        height: 2rem;
         padding-right: .5rem;
         padding-left: .5rem;
       }
@@ -100,6 +80,7 @@ body {
         margin-left: 2%;
       }
       .service {
+        height: 2rem;
         .s_link {
           width: 32%;
           &.s_m {
@@ -108,8 +89,19 @@ body {
         }
       }
       .verify {
-        .v_link {
+        height: 3rem;
+        .v_operate {
           width: 49%;
+          .v_link {
+            width: 100%;
+          }
+          .vs_link {
+            margin-top: .4rem;
+            line-height: .6rem;
+            font-size: .6rem;
+            color: #5e5e5e;
+            text-decoration: underline;
+          }
         }
       }
     }

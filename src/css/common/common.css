@@ -54,6 +54,9 @@
 body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, code, form, fieldset, legend, button, input, textarea {
   font-family: tahoma, arial, 'Hiragino Sans GB', 宋体, sans-serif; }
 
+body {
+  background: #d3e4fd; }
+
 ul, ol, li, dl, dt, dd {
   list-style: none; }
 
@@ -172,6 +175,23 @@ img {
 /* 文本加粗 */
 .bold {
   font-weight: 700; }
+
+/* com_header */
+.com_header {
+  height: 2.25rem;
+  line-height: 2.25rem;
+  padding-right: .5rem;
+  padding-left: .5rem;
+  background: #9cc1fa;
+  font-size: 1.1rem;
+  color: #ffffff;
+  text-align: center; }
+  .com_header i {
+    color: #ffffff; }
+
+/* com_container */
+.com_container {
+  padding: .75rem .5rem; }
 
 /**
  * Created by NieFZ on 2016-03-05
