@@ -1,0 +1,136 @@
+/**
+ * Created by NieFZ on 2016-03-05
+ */
+
+$white: #ffffff;
+$blue: #427aef;
+
+body {
+  background: #d3e4fd;
+}
+
+.com_header {
+  height: 2.25rem;
+  line-height: 2.25rem;
+  padding-right: .5rem;
+  padding-left: .5rem;
+  background: #9cc1fa;
+  font-size: 1.1rem;
+  color: $white;
+  text-align: center;
+  i {
+    color: $white;
+  }
+}
+
+.com_container {
+  padding: .75rem .5rem;
+  .com_inner {
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    background: $white;
+
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    border-radius: .5rem;
+    .com_info {
+      height: 36px;
+      padding-right: 1rem;
+      padding-left: 1rem;
+      margin-bottom: .75rem;
+      color: $blue;
+      i {
+        line-height: 1.8rem;
+        font-size: 1.7rem;
+      }
+      h2, p {
+        line-height: .9rem;
+        font-size: .6rem;
+      }
+      .com_status {
+        width: 4.6rem;
+        height: 1.2rem;
+        line-height: 1.2rem;
+        margin-top: .3rem;
+        margin-bottom: .3rem;
+        background: $blue;
+        font-size: .6rem;
+        color: $white;
+        text-align: center;
+
+        -webkit-border-radius: .6rem;
+        -moz-border-radius: .6rem;
+        border-radius: .6rem;
+      }
+    }
+    .info_line {
+      height: .2rem;
+      background: #c9c9c9;
+
+      -webkit-border-radius: .2rem;
+      -moz-border-radius: .2rem;
+      border-radius: .2rem;
+    }
+    .status_info {
+      .status_text {
+        height: 2rem;
+        line-height: 2rem;
+        padding-left: 1rem;
+        font-size: .6rem;
+        color: #ff0000;
+      }
+      .service {
+        height: 2rem;
+        padding-right: .5rem;
+        padding-left: .5rem;
+        .s_link {
+          width: 32%;
+          height: 2rem;
+          line-height: 2rem;
+          background: #ffa100;
+          font-size: .7rem;
+          color: $white;
+          text-align: center;
+
+          -webkit-border-radius: .2rem;
+          -moz-border-radius: .2rem;
+          border-radius: .2rem;
+
+          &.s_m {
+            margin-right: 2%;
+            margin-left: 2%;
+          }
+        }
+      }
+    }
+  }
+  .com_line {
+    height: .2rem;
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+    background: $blue;
+
+    -webkit-border-radius: .2rem;
+    -moz-border-radius: .2rem;
+    border-radius: .2rem;
+  }
+  .com_create {
+    display: block;
+    width: 11.7rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    background: $blue;
+    color: $white;
+    text-align: center;
+
+    -webkit-border-radius: 1.25rem;
+    -moz-border-radius: 1.25rem;
+    border-radius: 1.25rem;
+    i {
+      font-size: 1.1rem;
+    }
+    em {
+      font-size: .6rem;
+    }
+  }
+}

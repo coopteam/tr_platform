@@ -1,0 +1,28 @@
+{
+  "version": "0.0.1",
+  "dirs": {
+    "src": "src"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "glob": "^5.0.14",
+    "gulp-uglify": "^1.2.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-sass": "^2.1.1",
+    "gulp-open": "^1.0.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-livereload": "^3.8.1",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-make-css-url-version": "0.0.11",
+    "gulp-watch": "^4.3.5",
+    "gulp-tmod": "^0.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": {},
+  "name": "open-m",
+  "description": "open-m Portal For MIP",
+  "private": true
+}
