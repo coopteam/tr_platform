@@ -3,9 +3,11 @@
 *.log
 node_modules
 dist/
+*.css
 .package/
 .idea
 .sass-cache/
 .DS_Store
 _site/*
 *.orig
+*.css
