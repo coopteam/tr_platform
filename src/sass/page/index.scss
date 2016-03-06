@@ -79,27 +79,37 @@ body {
         font-size: .6rem;
         color: #ff0000;
       }
-      .service {
+      .service, .verify {
         height: 2rem;
         padding-right: .5rem;
         padding-left: .5rem;
+      }
+      .s_link, .v_link {
+        height: 2rem;
+        line-height: 2rem;
+        background: #ffa100;
+        font-size: .7rem;
+        color: $white;
+        text-align: center;
+
+        -webkit-border-radius: .2rem;
+        -moz-border-radius: .2rem;
+        border-radius: .2rem;
+      }
+      .s_m, .v_m {
+        margin-left: 2%;
+      }
+      .service {
         .s_link {
           width: 32%;
-          height: 2rem;
-          line-height: 2rem;
-          background: #ffa100;
-          font-size: .7rem;
-          color: $white;
-          text-align: center;
-
-          -webkit-border-radius: .2rem;
-          -moz-border-radius: .2rem;
-          border-radius: .2rem;
-
           &.s_m {
             margin-right: 2%;
-            margin-left: 2%;
           }
+        }
+      }
+      .verify {
+        .v_link {
+          width: 49%;
         }
       }
     }

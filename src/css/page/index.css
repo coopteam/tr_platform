@@ -56,22 +56,26 @@ body {
       padding-left: 1rem;
       font-size: .6rem;
       color: #ff0000; }
-    .com_container .com_inner .status_info .service {
+    .com_container .com_inner .status_info .service, .com_container .com_inner .status_info .verify {
       height: 2rem;
       padding-right: .5rem;
       padding-left: .5rem; }
-      .com_container .com_inner .status_info .service .s_link {
-        width: 32%;
-        height: 2rem;
-        line-height: 2rem;
-        background: #ffa100;
-        font-size: .7rem;
-        color: #ffffff;
-        text-align: center;
-        border-radius: .2rem; }
-        .com_container .com_inner .status_info .service .s_link.s_m {
-          margin-right: 2%;
-          margin-left: 2%; }
+    .com_container .com_inner .status_info .s_link, .com_container .com_inner .status_info .v_link {
+      height: 2rem;
+      line-height: 2rem;
+      background: #ffa100;
+      font-size: .7rem;
+      color: #ffffff;
+      text-align: center;
+      border-radius: .2rem; }
+    .com_container .com_inner .status_info .s_m, .com_container .com_inner .status_info .v_m {
+      margin-left: 2%; }
+    .com_container .com_inner .status_info .service .s_link {
+      width: 32%; }
+      .com_container .com_inner .status_info .service .s_link.s_m {
+        margin-right: 2%; }
+    .com_container .com_inner .status_info .verify .v_link {
+      width: 49%; }
   .com_container .com_line {
     height: .2rem;
     margin-top: .75rem;
