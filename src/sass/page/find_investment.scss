@@ -1,0 +1,154 @@
+/**
+ * Created by NieFZ on 2016-03-05
+ */
+
+$white: #ffffff;
+$blue: #427aef;
+
+.com_container {
+  .com_inner {
+    &.fix-head{
+      margin: -.75rem -.5rem 0 -.5rem;
+      border-radius: 0;
+    }
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    background: $white;
+
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    border-radius: .5rem;
+    .com_info {
+      height: 36px;
+      padding-right: 1rem;
+      padding-left: 1rem;
+      margin-bottom: .75rem;
+      color: $blue;
+      i {
+        line-height: 1.8rem;
+        font-size: 1.7rem;
+      }
+      h2, p {
+        line-height: .9rem;
+        font-size: .6rem;
+      }
+      .com_status {
+        width: 4.6rem;
+        height: 1.2rem;
+        line-height: 1.1rem;
+        margin-top: .3rem;
+        margin-bottom: .3rem;
+        background: $blue;
+        font-size: .6rem;
+        color: $white;
+        text-align: center;
+
+        -webkit-border-radius: .6rem;
+        -moz-border-radius: .6rem;
+        border-radius: .6rem;
+      }
+    }
+    .info_line {
+      height: .2rem;
+      background: #c9c9c9;
+
+      -webkit-border-radius: .2rem;
+      -moz-border-radius: .2rem;
+      border-radius: .2rem;
+    }
+    .status_info {
+      .status_text {
+        height: 2rem;
+        line-height: 2rem;
+        padding-left: 1rem;
+        font-size: .6rem;
+        color: #ff0000;
+      }
+      .service, .verify {
+        padding-right: .5rem;
+        padding-left: .5rem;
+      }
+      .s_link, .v_link {
+        height: 2rem;
+        line-height: 2rem;
+        background: #ffa100;
+        font-size: .7rem;
+        color: $white;
+        text-align: center;
+
+        -webkit-border-radius: .2rem;
+        -moz-border-radius: .2rem;
+        border-radius: .2rem;
+      }
+      .s_m, .v_m {
+        margin-left: 2%;
+      }
+      .service {
+        height: 2rem;
+        .s_link {
+          width: 32%;
+          &.s_m {
+            margin-right: 2%;
+          }
+        }
+      }
+      .verify {
+        height: 3rem;
+        .v_operate {
+          width: 49%;
+          .v_link {
+            width: 100%;
+          }
+          .vs_link {
+            margin-top: .4rem;
+            line-height: .6rem;
+            font-size: .6rem;
+            color: #5e5e5e;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  .com_line {
+    height: .2rem;
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+    background: $blue;
+
+    -webkit-border-radius: .2rem;
+    -moz-border-radius: .2rem;
+    border-radius: .2rem;
+  }
+  .com_create {
+    display: block;
+    width: 11.7rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    background: $blue;
+    color: $white;
+    text-align: center;
+
+    -webkit-border-radius: 1.25rem;
+    -moz-border-radius: 1.25rem;
+    border-radius: 1.25rem;
+    i {
+      font-size: 1.1rem;
+    }
+    em {
+      font-size: .6rem;
+    }
+  }
+}
+.panel-title{
+  padding: 0.5rem;
+}
+.panel-ct{
+  padding: 0.5rem;
+  background-color: $white;
+  border-radius: .5rem;
+}
+.footer{
+  margin-top: 1rem;
+  background-color: #8DB4EF;
+}
