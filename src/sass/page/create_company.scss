@@ -9,14 +9,33 @@
         width: auto;
         color: #000000;
       }
-      input {
+      input, .industry {
         height: 2.6rem;
         border: .1rem solid #868686;
         text-indent: .5rem;
         font-size: inherit;
+
+      }
+      input {
         &.company_name {
           width: 23.4rem;
         }
+      }
+      .industry {
+        width: 13.4rem;
+      }
+      .tap_code {
+        width: 10.6rem;
+        height: 2.6rem;
+        line-height: 2.6rem;
+        font-size: inherit;
+        color: #ffffff;
+        text-align: center;
+        background: #427aef;
+
+        -webkit-border-radius: .4rem;
+        -moz-border-radius: .4rem;
+        border-radius: .4rem;
       }
     }
   }
