@@ -3,6 +3,7 @@
 *.log
 node_modules
 dist/
+css/
 .package/
 .idea
 .sass-cache/
