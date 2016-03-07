@@ -185,7 +185,52 @@ $blue: #427aef;
 }
 .tab-ul{
   overflow: hidden;
+  margin: 1rem;
   li{
     float: left;
+    position: relative;
+    padding: 0 1rem;
+    &:after{
+      content: "";
+      position: absolute;
+      left: 100%;
+      top: 0;
+      width: 1px;
+      height: 100%;
+      background: #666;
+    }
+    &:last-child:after{
+      content: "";
+      background: transparent;  
+    }
   }
+}
+.tab-ct{
+    border: 1px solid #fff;
+    padding: 1rem;
+    margin:0 1rem;
+}
+.box-dt{
+    background: $blue;
+    color: $white;
+    .label-red{
+        padding: 0.3rem;
+        background-color: #ff0000;
+        color: $white;
+    }
+    .box-dt-title{
+        padding: 1rem 0;
+    }
+    .box-dt-content{
+        padding: 1rem 0;
+    }
+    .progress_bar{
+        margin-bottom: 1rem;
+    }
+}
+.btn-wrap{
+    margin: 1rem 0;
+    .btn-pri{
+        background: #F98707;
+    }
 }

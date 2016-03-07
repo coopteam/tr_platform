@@ -6,6 +6,7 @@ $white: #ffffff;
 $blue: #427aef;
 
 .com_container {
+    background-color: $white;
   .com_inner {
     &.fix-head{
       margin: -1.5rem -1.5rem 0 -1.5rem;
@@ -182,4 +183,94 @@ $blue: #427aef;
   .progress_inner_bar{
     background-color: #427AEF;
   }
+}
+.vali-panel{
+    background: $blue;
+    color: $white;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    .btn-pri{
+        background: #fff;
+        color: #333;
+    }
+}
+.filter{
+    margin: 1rem 0;
+    &>*{
+        text-align: center;
+    }
+    .filter-lb{
+        padding: 0 1rem;
+        border-radius: 4rem;
+        &.active{
+            background: #ffa100;
+            color: $white;
+        }
+    }
+}
+.box{
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    .label-red{
+        padding: 0.2rem 0.3rem;
+        background-color: #ff0000;
+        color: $white;
+    }
+    .box-title{
+        padding: 1rem 0;
+    }
+    .box-content{
+        padding-top: 1rem;
+        &>p{
+            border-top: 1px solid #ccc;
+            padding: 0.3rem;
+        }
+        .btn-pri{
+            width: 100%;
+        }
+        .content-wrap{
+             padding: 0.3rem;
+        }
+    }
+    .progress_bar{
+        margin-bottom: 1rem;
+    }
+}
+
+.banner{
+    position: relative;
+    ul{
+        list-style: outside none none;
+        &>li{
+        background-size: 100% 100%;
+        display: block;
+        float: left;
+        min-height: 170px;
+    }
+    }
+    
+    .dots{
+        bottom: 1px;
+        left: 0;
+        position: absolute;
+        right: 0;
+        padding-left: 50%;
+        margin-left: -1.5rem;
+        li{
+            border: 1px solid #fff;
+            border-radius: 6px;
+            cursor: pointer;
+            display: inline-block;
+            height: 0.5rem;
+            margin: 0 4px;
+            opacity: 0.4;
+            text-indent: -999em;
+            transition: background 0.5s ease 0s, opacity 0.5s ease 0s;
+            width: 0.5rem;
+            &.active{
+                background: #fff;
+                opacity: 1;
+            }
+        }
+    }
 }

@@ -9,7 +9,7 @@
 </head>
 <body>
 <header class="com_header">
-    <a href="/" class="fl"><i class="fa fa-arrow-left"></i></a>
+    <a href="javascript:history.back();" class="fl"><i class="fa fa-arrow-left"></i></a>
     创建公司
     <a href="javascript:void(0);" class="fr"><i class="fa icon-th-large"></i></a>
 </header>
@@ -43,7 +43,7 @@
         </li>
         <li>
             <label>主营产品或服务：</label>
-            <input type="text" placeholder="请简单介绍下主营产品或服务，5-30字之内" />
+            <textarea class="text-area" placeholder="请简单介绍下主营产品或服务，5-30字之内" /></textarea>
         </li>
         <li>
             <label>产品状态：</label>
@@ -66,7 +66,7 @@
         </li>
         <li>
             <label>业绩信息：</label>
-            <input type="text" placeholder="说说业绩情况，市场规模及目标用户，服务的人群等" />
+            <textarea  class="text-area" placeholder="说说业绩情况，市场规模及目标用户，服务的人群等" ></textarea>
         </li>
         <li>
             <label>负债情况：</label>
@@ -77,7 +77,7 @@
         </li>
         <li>
             <label>联系人：</label>
-            <input type="text" placeholder="请填写全名" />
+            <input type="text" class="text-input" placeholder="请填写全名" />
         </li>
         <li>
             <label>职位：</label>
@@ -89,16 +89,25 @@
         </li>
         <li>
             <label>联系方式：</label>
-            <input type="text" placeholder="请填写手机号" />
+            <input type="text" class="text-input phone" placeholder="请填写手机号" />
             <a class="tap_code fr" href="javascript:void(0);">点击获取验证码</a>
         </li>
-        <li>
+        <li class="clearfix">
             <label>验证码：</label>
-            <input type="text" placeholder="输入验证码" />
-            <em>若未收到验证码，60秒后重新点击获取验证码</em>
+            <input type="text" class="text-input vali-code" placeholder="输入验证码" />
+            <em class="fr">若未收到验证码，60秒后重新点击获取验证码</em>
         </li>
     </ul>
-    <a href="javascript:void(0);">提交信息</a>
+    <p class="txt-center">
+    <a href="javascript:void(0);" class="btn-pri btn-lg">提交信息</a>        
+    </p>
+     <div class="text-warning">
+        <h3 class="txt-center">特别提醒</h3>
+        <p>1.企业基本信息审核通过的公司才可申请对接找投资</p>
+        <p>2.提交申请后，投融互联平台会有专员联系您</p>
+        <p>3.提交申请后，投融互联平台会有专员联系您</p>
+        <p>4.提交申请后，投融互联平台会有专员联系您</p>
+    </div>
 </section>
 <footer class="com_footer">
     <div class="row">

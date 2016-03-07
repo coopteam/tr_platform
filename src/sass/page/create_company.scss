@@ -1,7 +1,7 @@
 .com_container {
   ul {
     li {
-      height: 2.8rem;
+    //   height: 2.8rem;
       line-height: 2.8rem;
       margin-bottom: 1.2rem;
       font-size: 1.2rem;
@@ -18,25 +18,55 @@
       }
       input {
         &.company_name {
-          width: 23.4rem;
+          width: 60%;
         }
       }
       .industry {
-        width: 13.4rem;
+        width: 60%;
+        vertical-align: middle;
+      }
+      .text-input{
+          width: 60%;
+          vertical-align: middle;
+      }
+      .text-area{
+          height: 5rem;
+          resize: none;
+          border: 1px solid #868686;
+          vertical-align: middle;
+          width: 50%;
+      }
+      .phone{
+          width: 40%;
       }
       .tap_code {
-        width: 10.6rem;
+        // width: 10.6rem;
         height: 2.6rem;
         line-height: 2.6rem;
         font-size: inherit;
         color: #ffffff;
         text-align: center;
         background: #427aef;
-
+        padding: 0 0.5rem;
         -webkit-border-radius: .4rem;
         -moz-border-radius: .4rem;
         border-radius: .4rem;
       }
     }
   }
+}
+.btn-pri{
+  background: #427aef;
+  font-size: 0.7rem;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 1rem;
+  padding: 0.2rem 0.3rem;
+  &.btn-lg{
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+  }
+}
+.text-warning{
+ margin: 1rem 0
 }

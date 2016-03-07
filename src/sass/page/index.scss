@@ -29,7 +29,7 @@ $blue: #427aef;
         font-size: 1.2rem;
       }
       .com_status {
-        width: 9.2rem;
+        // width: 9.2rem;
         height: 2.4rem;
         line-height: 2.2rem;
         margin-top: .6rem;
@@ -38,7 +38,7 @@ $blue: #427aef;
         font-size: 1.2rem;
         color: $white;
         text-align: center;
-
+        padding: 0 0.5rem;
         -webkit-border-radius: 1.2rem;
         -moz-border-radius: 1.2rem;
         border-radius: 1.2rem;
