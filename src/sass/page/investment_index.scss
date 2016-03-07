@@ -9,7 +9,7 @@ $blue: #427aef;
     background-color: $white;
   .com_inner {
     &.fix-head{
-      margin: -1.5rem -1.5rem 0 -1.5rem;
+      margin: -1.5rem -1rem 0 -1.5rem;
       border-radius: 0;
     }
     padding-top: 1.6rem;
@@ -141,6 +141,7 @@ $blue: #427aef;
     }
   }
 }
+
 .panel-title{
   padding: 0.5rem;
   font-size: 1.5rem;
@@ -198,9 +199,10 @@ $blue: #427aef;
     margin: 1rem 0;
     &>*{
         text-align: center;
+        padding: 0.5rem 0;
     }
     .filter-lb{
-        padding: 0 1rem;
+        padding: 0.5rem 1rem;
         border-radius: 4rem;
         &.active{
             background: #ffa100;
@@ -227,6 +229,9 @@ $blue: #427aef;
         }
         .btn-pri{
             width: 100%;
+            display: inline-block;
+            box-sizing: border-box;
+            color: $white;
         }
         .content-wrap{
              padding: 0.3rem;

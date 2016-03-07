@@ -3,9 +3,11 @@
 <head>
     <meta charset="utf-8">
     <title>投融互联平台--项目融资</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no, email=no">
     <link rel="stylesheet" type="text/css" href="../css/common/common.css"/>
     <link rel="stylesheet" type="text/css" href="../css/page/find_investment.css"/>
+    <link rel="stylesheet" type="text/css" href="../js/common/plugins/mobiscroll_datetime/mobiscroll.custom-2.5.2.min.css"/>
 </head>
 <body>
 <header class="com_header">
@@ -36,7 +38,7 @@
     <div class="panel-title"><i class="fa icon-bar-chart"></i>融资额度</div>
     <div class="panel-ct">
         <label>拟融资额度</label>
-        <input type="text" placeholder="test" class="input-text"/>
+        <input type="text" placeholder="单位：万" class="input-text"/>
     </div>
     <div class="panel-title"><i class="fa icon-bar-chart"></i>融资记录</div>
     <div class="panel-ct">
@@ -47,15 +49,15 @@
         </section>
         <section>
             <label>时间</label>
-            <input type="text" placeholder="test" class="input-text"/>
+            <input type="text" placeholder="2016-01-01" class="input-text timer" readonly/>
         </section>
         <section>
             <label>出让股份</label>
-            <input type="text" placeholder="test" class="input-text"/>
+            <input type="text" placeholder="单位：%" class="input-text"/>
         </section>
         <section>
             <label>融资金额</label>
-            <input type="text" placeholder="test" class="input-text"/>
+            <input type="text" placeholder="单位：万" class="input-text"/>
             <span class="btn-pri fr">
                 <i class="fa fa-plus"></i>继续添加
             </span>
@@ -98,6 +100,7 @@
 </footer>
 <script src="../js/common/jquery-1.11.3.min.js"></script>
 <script src="../js/common/plugins/icheck.min.js"></script>
+<script src="../js/common/plugins/mobiscroll_datetime/mobiscroll.custom-2.5.2.min.js"></script>
 <script src="../js/page/find_investment.js"></script>
 </body>
 </html>
